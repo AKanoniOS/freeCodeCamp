@@ -1,0 +1,67 @@
+body {
+  background-color: #0c2f54;
+  font-family: sans-serif;
+  color:white;
+}
+
+#title, #description {
+  text-align:center;
+  margin-top:1em;
+}
+
+form {
+  min-width: 300px;
+  width: 60vw;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #FFFFFF40;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+label, input {
+display:block;
+}
+
+input, select, textarea {
+  margin-bottom: 1em;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  display:unset;
+}
+
+fieldset {
+  border: none;
+  border-bottom: white solid 2px;
+}
+fieldset:last-of-type {
+  border: none;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea{
+  height:2em;
+  width:100%;
+  background-color: lightblue;
+  border:none;
+  border-radius:0.3em;
+}
+input[type="submit"]{
+  background-color: #138f0d;
+  color:white;
+  border:none;
+  border-radius:0.3em;
+  width:60%;
+  height:3em;
+  margin: 0 auto;
+}
+
+input[type="checkbox"]{
+  height:2em;
+  aspect-ratio:1;
+  vertical-align: middle;
+}
+
+textarea {
+  height: 4em;
+}

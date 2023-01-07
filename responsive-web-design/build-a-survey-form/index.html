@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is my survey form</p>
+
+    <form id="survey-form">
+      <label id="name-label">Enter your name: <input id="name" type="text" placeholder="Jonnie Appleseed" required></label>
+      <label id="email-label">Enter your email: <input type="email" placeholder="JA@gmail.com" id="email" required></label>
+      <label id="number-label">Enter a number: <input type="number" min=1 max=100 placeholder=50 id="number"></label>
+      <label for="dropdown">Select your option</label>
+      <select id="dropdown" name="dropdown">
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+      </select>
+
+      <label for="radio">Which version would you like?</version>
+      <fieldset>  
+        <label><input type="radio" name="radio" value="A">Version A</label>
+        <label><input type="radio" name="radio" value="B">Version B</label>
+      </fieldset>
+
+      <fieldset>
+        <p>Which of these options would you like to select?</p>
+        <label for="option-1"><input type="checkbox" name="option-1" value="1">Option 1</label>
+        <label for="option-2"><input type="checkbox" name="option-2" value="2">Option 2</label>
+        <label for="option-3"><input type="checkbox" name="option-3" value="3">Option 3</label>
+        <label for="option-4"><input type="checkbox" name="option-4" value="4">Option 4</label>
+      </fieldset>
+
+      <label for="textarea">Do you have any other comments?</label>
+      <textarea cols=50 rows=5 name="textarea"></textarea>
+
+      <label><input type="submit" id="submit"</label>
+
+    </form>
+  </body>
+</html>
